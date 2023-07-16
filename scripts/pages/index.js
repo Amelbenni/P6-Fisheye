@@ -3,7 +3,7 @@
         // mais il sera à remplacer avec une requête sur le fichier JSON en utilisant "fetch".
         const response = await fetch('./data/photographers.json');
         const photographers = await response.json();
-       console.log(photographers)
+       
 
         
         // et bien retourner le tableau photographers seulement une fois récupéré
