@@ -1,0 +1,35 @@
+{
+  "name": "p6-fisheye",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass": "sass --watch css/sass/style.scss:./css/style.css"
+  },
+  "devDependencies": {
+    "vite": "^4.4.0"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.18.13",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.26",
+    "nanoid": "^3.3.6",
+    "rollup": "^3.26.2",
+    "source-map-js": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amelbenni/P6-Fisheye.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amelbenni/P6-Fisheye/issues"
+  },
+  "homepage": "https://github.com/Amelbenni/P6-Fisheye#readme",
+  "description": ""
+}
