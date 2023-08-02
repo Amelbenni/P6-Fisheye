@@ -20,11 +20,12 @@ function photographerFactory(data) {
         p.textContent = tagline;
         const pricep = document.createElement( "small");
         pricep.textContent = price + "€/jour";
-        article.appendChild(img);
-        article.appendChild(h2);
+        article.appendChild(link);
         article.appendChild(h3);
         article.appendChild(p);
         article.appendChild(pricep);
+        
+
         return (article);
     }
     return { name, city, country, tagline, price, id, picture, getUserCardDOM }
